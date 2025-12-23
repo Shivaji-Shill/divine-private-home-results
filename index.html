@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divine Private Home | Result</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>DIVINE PRIVATE HOME</h1>
+    <p class="quote">Quality meets with Quality</p>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+
+    <!-- RESULT CARD -->
+    <section class="card">
+      <h2>Check Your Result</h2>
+
+      <label>Roll Number</label>
+      <input type="text" id="roll" placeholder="Enter Roll Number">
+
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter Password">
+
+      <button onclick="showResult()">View Result</button>
+
+      <div id="result"></div>
+    </section>
+
+    <!-- TOP 3 CARD -->
+    <section class="card">
+      <h2>Top 3 Students (This Week)</h2>
+
+      <div class="topper first">
+        <span class="badge gold">🥇</span>
+        <div>
+          <strong>MD Mokabbir</strong><br>
+          <small>285 Marks</small>
+        </div>
+      </div>
+
+      <div class="topper second">
+        <span class="badge silver">🥈</span>
+        <div>
+          <strong>Anika</strong><br>
+          <small>275 Marks</small>
+        </div>
+      </div>
+
+      <div class="topper third">
+        <span class="badge bronze">🥉</span>
+        <div>
+          <strong>Sneha</strong><br>
+          <small>268 Marks</small>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
