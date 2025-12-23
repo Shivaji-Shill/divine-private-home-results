@@ -19,13 +19,7 @@ A responsive **student result web application** for Divine Private Home school, 
 - HTML5  
 - CSS3 (Flexbox & Gradient)  
 - JavaScript (for result logic)
-
----
-
-## Screenshots
-
-*(Add screenshots here if you want)*
-
+  
 ---
 
 ## How to Use
